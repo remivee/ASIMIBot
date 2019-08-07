@@ -1,6 +1,6 @@
 # ASIMIBot
 
-ASIMIBot is a Python bot implementing a grid trading strategy. It was forked from the original [BlackBot](https://github.com/PyWaves/BlackBot) repository. It can work with any assets pair on the Waves DEX.
+ASIMIBot is a Python bot implementing a grid trading strategy. It was forked from the original [BlackBot](https://github.com/PyWaves/BlackBot) repository. It works with the ASIMI/BTC asset pair on the Waves DEX.
 
 Grid trading doesn’t care about which way the market’s going — in fact, as a profitable strategy it works best in ranging markets. The strategy places a ladder of sells at regular intervals above market price, and another ladder of buys beneath it. If a sell is filled, those funds are used to place a buy just beneath that sell. Thus you can think of the grid as a series of pairs of buys/sells stretching up and down the price chart, with either the buy or sell in each pair always active.
 
